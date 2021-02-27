@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/robond/pluto-project/script/hello.cpp
+/home/robond/udacity-robotics/pluto-project/script/hello.cpp
 gazebo/gazebo.hh
 -
 
