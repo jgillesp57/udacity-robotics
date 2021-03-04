@@ -23,6 +23,11 @@
             <uri>file://media/materials/scripts/gazebo.material</uri>
             <name>Gazebo/Grey</name>
           </script>
+          <ambient>0.996078 0.47451 0.0196078 1</ambient>
+          <shader type='pixel'/>
+          <diffuse>0.7 0.7 0.7 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
         </material>
       </visual>
       <pose frame=''>1.20871 8.66902 0 0 -0 0</pose>
@@ -96,9 +101,8 @@
         <material>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
+            <name>Gazebo/White</name>
           </script>
-          <ambient>1 1 1 1</ambient>
         </material>
         <meta>
           <layer>0</layer>
@@ -125,7 +129,7 @@
         <material>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
+            <name>Gazebo/RedBright</name>
           </script>
           <ambient>1 1 1 1</ambient>
         </material>
@@ -154,7 +158,7 @@
         <material>
           <script>
             <uri>file://media/materials/scripts/gazebo.material</uri>
-            <name>Gazebo/Grey</name>
+            <name>Gazebo/Yellow</name>
           </script>
           <ambient>1 1 1 1</ambient>
         </material>
