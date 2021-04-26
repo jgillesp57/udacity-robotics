@@ -30,7 +30,7 @@ void process_image_callback(const sensor_msgs::Image img)
   //TODO: loop through each pixel in the image and check if there's a bright one
   // bool white_pixel_found = false;
   for(int i = 0; i < img.height & img.step; i++) {
-    if(img.data[i] == white_pixel) {
+    if(img.data[i] == white_pixel && img.data[i+1] == white_pixel && img.data[i+2] == white_pixel) {
       // white_pixel_found = true;
       if(i % img.width < column_width_sep) { // left side of image
         drive_robot(0.0, 0.5); // drive robot left

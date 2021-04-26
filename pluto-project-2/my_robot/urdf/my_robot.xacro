@@ -206,8 +206,8 @@
     <axis xyz="0 1 0" rpy="0 0 0"/>
   </joint>
 
-  <joint type="fixed" name="lidar_joint">
-    <origin xyz=".02 0 0" rpy="0 0 0"/>
+  <joint type="fixed" name="hokuyo_joint">
+    <origin xyz="0.15 0 0.1" rpy="0 0 0"/>
     <child link="hokuyo"/>
     <parent link="chassis"/>
     <axis xyz="0 1 0" rpy="0 0 0"/>
