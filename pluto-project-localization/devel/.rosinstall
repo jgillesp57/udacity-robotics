@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/robond/catkin_localization_ws/devel/setup.sh
